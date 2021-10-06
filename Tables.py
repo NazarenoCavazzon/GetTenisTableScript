@@ -80,6 +80,7 @@ def main():
     folder = os.path.abspath(os.path.join(os.path.dirname(__file__)))
     tableList = getData()
     saveToExcel("Data", tableList, 1, folder)
+    print(tableList)
 
 if __name__ == '__main__':
     main()
